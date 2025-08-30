@@ -1,4 +1,4 @@
-# Discord Bot Templates
+# Discord API Bot Templates
 
 This repository contains a collection of templates for building Discord bots using several popular API libraries.
 
@@ -11,8 +11,8 @@ The goal is to provide a solid, clean foundation, allowing development to focus 
 ## Supported Libraries & Branches
 
 *   **`discord.js`**: Branch `discord.js` – A template for the popular JavaScript/TypeScript library.
-*   **`discordjda`**: Branch `discordjda` – A template for the robust Java wrapper, DiscordJDA.
-*   **`discord4j`**: Branch `discord4j` – A template for the reactive Java library, discord4j.
+*   **~~`discordjda`~~**: ~~Branch `discordjda` – A template for the robust Java wrapper, DiscordJDA.~~
+*   **~~`discord4j`~~**: ~~Branch `discord4j` – A template for the reactive Java library, discord4j.~~
 
 ## Contributing
 
