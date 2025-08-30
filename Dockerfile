@@ -1,4 +1,6 @@
-FROM node:alpine
+FROM node:20-alpine AS builder
+
+WORKDIR /usr/src/app
 
 COPY package*.json ./
 
@@ -8,4 +10,12 @@ COPY . .
 
 RUN npm run build
 
-CMD ["npm", "start"]
+RUN npm prune --production
+
+FROM node:20-alpine
+
+COPY --from=builder /usr/src/app/node_modules ./node_modules
+COPY --from=builder /usr/src/app/dist ./dist
+COPY --from=builder /usr/src/app/package.json ./package.json
+
+CMD ["node", "dist/index.js"]
