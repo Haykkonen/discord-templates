@@ -1,28 +1,24 @@
-# Discord API Bot Template
+# Discord Bot Templates
 
-This repository provides a comprehensive template for building Discord bots using a variety of Discord API libraries. It
-is organized into separate branches for popular libraries such
-as [discord.js](https://discord.js.org/), [DiscordJDA](https://github.com/DV8FromTheWorld/JDA),
-and [discord4j](https://discord4j.com/). Each branch contains a working example, project-specific configurations, and
-instructions tailored to that library.
+This repository contains a collection of templates for building Discord bots using several popular API libraries.
 
 ## Overview
 
-This repository is designed to help developers get started quickly with Discord bot development using their preferred
-API library. Simply switch to the branch corresponding to the library you want to use, follow the setup instructions,
-and start coding your bot!
+This project was born from my own need for a **simple, organized, and effective** starting point for my bots. Instead of recreating the same boilerplate for every new project, I created this collection of reusable templates for the libraries I use most often.
+
+The goal is to provide a solid, clean foundation, allowing development to focus on the bot's features and logic rather than the initial setup. Each branch is a self-contained, functional template.
 
 ## Supported Libraries & Branches
 
-- **discord.js**: Branch `discord.js` – A popular JavaScript/TypeScript library for Discord.
-- ~~**DiscordJDA**: Branch `discordjda` – A robust Java wrapper for the official Discord API.~~
-- ~~**discord4j**: Branch `discord4j` – A reactive Java library for Discord.~~
+*   **`discord.js`**: Branch `discord.js` – A template for the popular JavaScript/TypeScript library.
+*   **`discordjda`**: Branch `discordjda` – A template for the robust Java wrapper, DiscordJDA.
+*   **`discord4j`**: Branch `discord4j` – A template for the reactive Java library, discord4j.
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for improvements or new features, please follow these steps:
+While this began as a project for personal use, contributions are welcome! If you have ideas for improvements or find an issue, feel free to follow these steps:
 
-1. **Fork** the repository.
-2. **Create** a new branch for your feature or bug fix.
-3. **Commit** your changes with clear and descriptive messages.
-4. **Open a Pull Request** detailing your changes and the reasoning behind them.
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Commit your changes with clear and descriptive messages.
+4.  Open a Pull Request detailing your changes.
